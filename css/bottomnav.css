@@ -1,0 +1,44 @@
+footer{
+  max-width: 900px;
+  margin: auto;
+}
+ul{
+  list-style: none;
+}
+.bottomnav{
+  width: 100%;
+  max-width: 900px;
+  overflow: auto;
+}
+.bottomnav a{
+  float: left;
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+  padding-right: 30px;
+  text-align: lefta;
+}
+.social a{
+  float: right;
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+  padding-right: opx;
+  text-align: center;
+  width: 15%;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.copy {
+  text-align: center;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+.bottomnav a:hover{
+  color:gold;
+}
+.social a:hover{
+  color:gold;
+}

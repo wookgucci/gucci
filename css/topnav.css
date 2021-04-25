@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+}
+
+header{
+  padding-top: 20px;
+  padding-bottom: 110px;
+  max-width: 900px;
+  margin:auto;
+
+}
+
+.topnav {
+  width: 100%;
+  max-width: 900px;
+  overflow: auto;
+  position: fixed;
+  top:10px;
+  background-color: white;
+}
+.topnav ul{
+  list-style: none;
+}
+.topnav a{
+  float: left;
+  font-weight: bold;
+  padding: 12px;
+  margin-top: 20px;
+  color: black;
+  text-decoration: none;
+  font-size: 30px;
+  width: 17%;
+  text-align: center;
+  display: block;
+}
+.topnav a.active{
+  background-color: gold;
+  font-size: 40px;
+  margin-top: 15px;
+
+}
+.topnav a:hover{
+  color: gold;
+}
+.topnav a.active:hover{
+  background-color: black;
+  color: gold;
+}
